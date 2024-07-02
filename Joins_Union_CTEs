@@ -1,0 +1,16 @@
+Joins
+Joins are crucial for combining rows from two or more tables based on a related column. Here are the main types of joins:
+
+Inner Join: Returns rows with matching values in both tables.
+Left Join: Returns all rows from the left table, and matched rows from the right table. Unmatched rows will have NULL values.
+Right Join: Returns all rows from the right table, and matched rows from the left table. Unmatched rows will have NULL values.
+Full Join: Returns all rows when there is a match in one of the tables. Unmatched rows from both tables will have NULL values.
+Cross Join: Returns the Cartesian product of the two tables, combining each row of the first table with each row of the second table.
+Self Join: A table is joined with itself to combine rows within the same table.
+Indexing
+Indexes are used to speed up the retrieval of data from a database table. There are different types of indexes, including primary key, unique, regular, full-text, and spatial indexes.
+Common Table Expressions (CTEs)
+CTEs are temporary result sets that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement. CTEs improve the readability and maintainability of complex queries.
+Union and Union All
+The UNION operator is used to combine the result sets of two or more SELECT statements. UNION returns only unique rows, while UNION ALL returns all rows, including duplicates.
+
